@@ -12,6 +12,10 @@ public class Bank {
     public static void addUser(String userName, String password) {
         users.add(new User(userName, password));
     }
+    
+    public static void addATM() {
+        atms.add(new AutomatedTellerMachine());
+    }
 
     public static ArrayList<User> getUsers() {
         return users;
