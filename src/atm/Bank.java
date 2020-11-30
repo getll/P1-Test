@@ -13,7 +13,7 @@ public class Bank {
         users.add(new User(userName, password));
     }
     
-    public static void addATM() {
+    public static void addAtm() {
         atms.add(new AutomatedTellerMachine());
     }
 
